@@ -1,0 +1,3594 @@
+
+
+
+log for ./xporta -T example1.ieq 
+
+example1.ieq : no such file
+
+
+
+log for ./xporta -T example.ieq 
+
+input file example.ieq o.k.
+dimension              :    5 
+number of equations    :    2 
+number of inequalities :    4 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 4
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        1 |    4 |   n |   0.38 |      42 |      0.00 |      0.00 |
+|     3 |          3 |        2 |    4 |   n |   0.39 |      42 |      0.00 |      0.00 |
+|     2 |          2 |        3 |    4 |   n |   0.50 |      42 |      0.00 |      0.00 |
+|     1 |          1 |        4 |    2 |   n |   0.55 |      42 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     1 |          4 |        4 |    1 |   n |   0.20 |     841 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :      4
+maximal number of inequalities          :      4
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    1 
+number of conv-points  :    3 
+
+output written to file example.ieq.poi
+
+
+
+
+log for ./xporta -F octahedron.ieq 
+
+input file octahedron.ieq o.k.
+dimension              :    3 
+number of equations    :    0 
+number of inequalities :    8 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     2 |         16 |       16 |    1 |   n |   0.22 |     843 |      0.00 |      0.00 |
+|     1 |         24 |        8 |    1 |   n |   0.22 |     843 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     24
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    0 
+number of inequalities :    5 
+
+output written to file octahedron.ieq.ieq
+
+
+
+
+log for ./xporta -F -c octahedron.ieq 
+
+input file octahedron.ieq o.k.
+dimension              :    3 
+number of equations    :    0 
+number of inequalities :    8 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     2 |         16 |       16 |    1 |   n |   0.22 |     843 |      0.00 |      0.00 |
+|     1 |         24 |       24 |    1 |   n |   0.37 |     843 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     40
+maximal number of inequalities          :     24
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    0 
+number of inequalities :   17 
+
+octahedron.ieq.ieq moved into octahedron.ieq.ieq%
+output written to file octahedron.ieq.ieq
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    4 
+number of equations    :    2 
+number of inequalities :    4 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |          3 |        1 |    1 |   n |   0.48 |      41 |      0.00 |      0.00 |
+|     2 |          2 |        2 |    1 |   n |   0.56 |      41 |      0.00 |      0.00 |
+|     1 |          1 |        3 |    1 |   n |   0.73 |      41 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     2 |          4 |        4 |    1 |   n |   0.38 |     841 |      0.00 |      0.00 |
+|     1 |          4 |        4 |    1 |   n |   0.38 |     841 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :      8
+maximal number of inequalities          :      4
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    4 
+
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 4 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 2
+ elimination of variable 3
+ elimination of variable 4
+ elimination of variable 5
+ elimination of variable 9
+ elimination of variable 13
+ elimination of variable 12
+ elimination of variable 10
+ elimination of variable 11
+ elimination of variable 17
+ elimination of variable 20
+ elimination of variable 18
+ elimination of variable 19
+ elimination of variable 21
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    10 |         10 |        1 |    1 |   n |   0.23 |      63 |      0.00 |      0.00 |
+|     9 |          9 |        2 |    1 |   n |   0.22 |      63 |      0.00 |      0.00 |
+|     8 |          8 |        3 |    1 |   n |   0.22 |      63 |      0.00 |      0.00 |
+|     7 |          7 |        4 |    2 |   n |   0.27 |      63 |      0.00 |      0.00 |
+|     6 |          6 |        5 |    2 |   n |   0.28 |      63 |      0.00 |      0.00 |
+|     5 |          5 |        6 |    1 |   n |   0.28 |      63 |      0.00 |      0.00 |
+|     4 |          4 |        7 |    1 |   n |   0.34 |      63 |      0.00 |      0.00 |
+|     3 |          3 |        8 |    1 |   n |   0.38 |      63 |      0.00 |      0.00 |
+|     2 |          2 |        9 |    1 |   n |   0.37 |      63 |      0.00 |      0.00 |
+|     1 |          1 |       10 |    1 |   n |   0.44 |      63 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     7 |         11 |       11 |    1 |   n |   0.11 |     859 |      0.00 |      0.00 |
+|     6 |         12 |       12 |    1 |   n |   0.12 |     859 |      0.00 |      0.00 |
+|     5 |         13 |       13 |    1 |   n |   0.13 |     859 |      0.00 |      0.00 |
+|     4 |         49 |       43 |    2 |   n |   0.24 |     860 |      0.00 |      0.00 |
+|     3 |        178 |       37 |    1 |   n |   0.22 |     860 |      0.00 |      0.00 |
+|     2 |         91 |       28 |    1 |   n |   0.23 |     860 |      0.00 |      0.00 |
+|     1 |         28 |       28 |    1 |   n |   0.23 |     860 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    172
+maximal number of inequalities          :     43
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :   28 
+
+output written to file linear-quantifier-elimination.ieq.poi
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+Need 'ELIMINATION_ORDER' to eliminate variables
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F -o linear-quantifier-elimination.ieq 
+
+invalid command line
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    14 |         14 |       18 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    14 |         14 |       18 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       18 |    1 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 1 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.14 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.15 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       18 |    1 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 1 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.14 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.15 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    16 |         16 |       17 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    15 |         15 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    14 |         14 |       19 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    13 |         13 |       20 |    1 |   n |   0.14 |      83 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    12 |         12 |       21 |    1 |   n |   0.16 |      83 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    11 |         11 |       22 |    1 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    10 |         10 |       23 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    14 |         14 |       18 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 8 : only variable names x1,...,xdim allowed
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 3 : invalid format of input file 
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    14 |         14 |       18 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    15 |         15 |       17 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    14 |         14 |       18 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    13 |         13 |       19 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    12 |         12 |       20 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    11 |         11 |       21 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    10 |         10 |       22 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     9 |          9 |       23 |    1 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|     8 |          8 |       24 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|     7 |          7 |       25 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     6 |          6 |       26 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       27 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       28 |    2 |   n |   0.21 |      85 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       29 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       30 |    1 |   n |   0.24 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       31 |    1 |   n |   0.25 |      86 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :   15 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.01 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.01 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.01 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.01 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.01 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.01 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.01 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.01 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.01 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.01 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.01 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.01 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.01 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.01 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.01 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.02 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.02 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.02 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.02 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.02 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.02 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    16 |         16 |       16 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.14 |      81 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.16 |      81 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.00 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   24 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    24 |         24 |       16 |    1 |   n |   0.12 |      91 |      0.00 |      0.00 |
+|    23 |         23 |       16 |    2 |   n |   0.12 |      91 |      0.00 |      0.00 |
+|    22 |         22 |       16 |    1 |   n |   0.13 |      91 |      0.00 |      0.00 |
+|    21 |         21 |       16 |    1 |   n |   0.14 |      91 |      0.00 |      0.00 |
+|    20 |         20 |       16 |    1 |   n |   0.17 |      91 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    1 |   n |   0.19 |      91 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.19 |      91 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   23 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    23 |         23 |       16 |    1 |   n |   0.12 |      90 |      0.00 |      0.00 |
+|    22 |         22 |       16 |    2 |   n |   0.12 |      90 |      0.00 |      0.00 |
+|    21 |         21 |       16 |    1 |   n |   0.13 |      90 |      0.00 |      0.00 |
+|    20 |         20 |       16 |    1 |   n |   0.14 |      90 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    1 |   n |   0.16 |      90 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.20 |      90 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.17 |      90 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|    13 |         13 |       17 |    1 |   n |   0.17 |      90 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|    12 |         12 |       18 |    2 |   n |   0.18 |      91 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|    11 |         11 |       19 |    2 |   n |   0.18 |      91 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|    10 |         10 |       20 |    1 |   n |   0.17 |      91 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     9 |          9 |       21 |    1 |   n |   0.17 |      92 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   23 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    23 |         23 |       16 |    1 |   n |   0.12 |      90 |      0.00 |      0.00 |
+|    22 |         22 |       16 |    2 |   n |   0.12 |      90 |      0.00 |      0.00 |
+|    21 |         21 |       16 |    1 |   n |   0.13 |      90 |      0.00 |      0.00 |
+|    20 |         20 |       16 |    1 |   n |   0.14 |      90 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    1 |   n |   0.16 |      90 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.20 |      90 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.19 |      90 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.17 |      90 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|    13 |         13 |       17 |    1 |   n |   0.17 |      90 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|    12 |         12 |       18 |    2 |   n |   0.18 |      91 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|    11 |         11 |       19 |    2 |   n |   0.18 |      91 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|    10 |         10 |       20 |    1 |   n |   0.17 |      91 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     9 |          9 |       21 |    1 |   n |   0.17 |      92 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   22 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    22 |         22 |       16 |    1 |   n |   0.11 |      89 |      0.00 |      0.00 |
+|    21 |         21 |       16 |    2 |   n |   0.12 |      89 |      0.00 |      0.00 |
+|    20 |         20 |       16 |    1 |   n |   0.13 |      89 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    1 |   n |   0.14 |      89 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.17 |      89 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.18 |      89 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.19 |      89 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.20 |      89 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.19 |      89 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.18 |      89 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|    12 |         12 |       17 |    1 |   n |   0.18 |      89 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|    11 |         11 |       18 |    2 |   n |   0.19 |      89 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|    10 |         10 |       19 |    2 |   n |   0.19 |      90 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     9 |          9 |       20 |    1 |   n |   0.18 |      90 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     8 |          8 |       21 |    1 |   n |   0.17 |      91 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   21 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    21 |         21 |       16 |    1 |   n |   0.11 |      87 |      0.00 |      0.00 |
+|    20 |         20 |       16 |    2 |   n |   0.12 |      87 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    1 |   n |   0.13 |      87 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.14 |      87 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.17 |      87 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.18 |      87 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.19 |      87 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.20 |      87 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.20 |      87 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.19 |      87 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|    11 |         11 |       17 |    1 |   n |   0.19 |      88 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|    10 |         10 |       18 |    2 |   n |   0.19 |      88 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     9 |          9 |       19 |    2 |   n |   0.20 |      88 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     8 |          8 |       20 |    1 |   n |   0.19 |      89 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     7 |          7 |       21 |    1 |   n |   0.18 |      89 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   20 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    20 |         20 |       16 |    1 |   n |   0.11 |      86 |      0.00 |      0.00 |
+|    19 |         19 |       16 |    2 |   n |   0.12 |      86 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    1 |   n |   0.13 |      86 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.14 |      86 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.17 |      86 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.18 |      86 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.19 |      86 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.20 |      86 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.20 |      86 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.19 |      86 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|    10 |         10 |       17 |    1 |   n |   0.19 |      86 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     9 |          9 |       18 |    2 |   n |   0.20 |      87 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     8 |          8 |       19 |    2 |   n |   0.21 |      87 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     7 |          7 |       20 |    1 |   n |   0.20 |      88 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     6 |          6 |       21 |    1 |   n |   0.19 |      88 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   19 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    19 |         19 |       16 |    1 |   n |   0.11 |      85 |      0.00 |      0.00 |
+|    18 |         18 |       16 |    2 |   n |   0.12 |      85 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    1 |   n |   0.13 |      85 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.14 |      85 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.17 |      85 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.19 |      85 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.19 |      85 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.20 |      85 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.20 |      85 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.19 |      85 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     9 |          9 |       17 |    1 |   n |   0.20 |      85 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     8 |          8 |       18 |    2 |   n |   0.21 |      86 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     7 |          7 |       19 |    2 |   n |   0.22 |      86 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     6 |          6 |       20 |    1 |   n |   0.21 |      86 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     5 |          5 |       21 |    1 |   n |   0.20 |      87 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   18 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    18 |         18 |       16 |    1 |   n |   0.11 |      84 |      0.00 |      0.00 |
+|    17 |         17 |       16 |    2 |   n |   0.12 |      84 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    1 |   n |   0.13 |      84 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.14 |      84 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.17 |      84 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.18 |      84 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.20 |      84 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.20 |      84 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.19 |      84 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     8 |          8 |       17 |    1 |   n |   0.20 |      84 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     7 |          7 |       18 |    2 |   n |   0.22 |      84 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     6 |          6 |       19 |    2 |   n |   0.23 |      85 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     5 |          5 |       20 |    1 |   n |   0.22 |      85 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     4 |          4 |       21 |    1 |   n |   0.21 |      86 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   17 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    17 |         17 |       16 |    1 |   n |   0.11 |      82 |      0.00 |      0.00 |
+|    16 |         16 |       16 |    2 |   n |   0.12 |      82 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.14 |      82 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.18 |      82 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.18 |      82 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.19 |      82 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.20 |      82 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      82 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     7 |          7 |       17 |    1 |   n |   0.19 |      83 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     6 |          6 |       18 |    2 |   n |   0.21 |      83 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     5 |          5 |       19 |    2 |   n |   0.24 |      83 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     4 |          4 |       20 |    1 |   n |   0.23 |      84 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     3 |          3 |       21 |    1 |   n |   0.22 |      84 |      0.00 |      0.00 |
+The 16. equation is redundant
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       16 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     4 |         16 |       16 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    1 |   n |   0.19 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       16 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     4 |         16 |       16 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    1 |   n |   0.19 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+linear-quantifier-elimination.ieq, line 25 : invalid format
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       16 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     4 |         16 |       16 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    1 |   n |   0.19 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       16 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     4 |         16 |       16 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    1 |   n |   0.19 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.00 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    16 |         16 |       16 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.14 |      81 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.16 |      81 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     4 |          4 |       18 |    1 |   n |   0.20 |      81 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     3 |          3 |       19 |    1 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.00 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    16 |         16 |       16 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.14 |      81 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.16 |      81 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.00 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F -c linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       16 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     4 |         16 |       16 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    1 |   n |   0.19 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   16 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq 
+
+input file linear-quantifier-elimination.ieq.ieq o.k.
+dimension              :   24 
+number of equations    :    5 
+number of inequalities :   16 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 17
+ elimination of variable 18
+ elimination of variable 19
+ elimination of variable 20
+ elimination of variable 21
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    20 |         20 |        1 |    2 |   n |   0.08 |      74 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    19 |         19 |        2 |    2 |   n |   0.09 |      75 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    18 |         18 |        3 |    2 |   n |   0.09 |      75 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    17 |         17 |        4 |    2 |   n |   0.10 |      75 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    16 |         16 |        5 |    2 |   n |   0.11 |      76 |      0.00 |      0.00 |
+ variable 6 eliminated - finite equation found
+|    15 |         15 |        6 |    2 |   n |   0.12 |      76 |      0.00 |      0.00 |
+ variable 7 eliminated - finite equation found
+|    14 |         14 |        7 |    2 |   n |   0.13 |      76 |      0.00 |      0.00 |
+ variable 8 eliminated - finite equation found
+|    13 |         13 |        8 |    2 |   n |   0.14 |      76 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    12 |         12 |        9 |    2 |   n |   0.16 |      77 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|    11 |         11 |       10 |    2 |   n |   0.17 |      77 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|    10 |         10 |       11 |    2 |   n |   0.20 |      77 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     9 |          9 |       12 |    2 |   n |   0.22 |      78 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     8 |          8 |       13 |    2 |   n |   0.26 |      78 |      0.00 |      0.00 |
+ variable 14 eliminated - finite equation found
+|     7 |          7 |       14 |    2 |   n |   0.31 |      78 |      0.00 |      0.00 |
+ variable 15 eliminated - finite equation found
+|     6 |          6 |       15 |    2 |   n |   0.38 |      79 |      0.00 |      0.00 |
+ variable 16 eliminated - finite equation found
+|     5 |          5 |       16 |    2 |   n |   0.49 |      79 |      0.00 |      0.00 |
+|     4 |          4 |       17 |    2 |   n |   0.50 |      79 |      0.00 |      0.00 |
+|     3 |          3 |       18 |    2 |   n |   0.51 |      79 |      0.00 |      0.00 |
+|     2 |          2 |       19 |    2 |   n |   0.53 |      79 |      0.00 |      0.00 |
+|     1 |          1 |       20 |    2 |   n |   0.57 |      79 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    13 |          4 |        4 |    1 |   n |   0.20 |     857 |      0.00 |      0.00 |
+|    12 |          4 |        4 |    1 |   n |   0.20 |     857 |      0.00 |      0.00 |
+|    11 |          4 |        4 |    1 |   n |   0.20 |     857 |      0.00 |      0.00 |
+|    10 |          5 |        5 |    1 |   n |   0.28 |     857 |      0.00 |      0.00 |
+|     9 |          5 |        5 |    2 |   n |   0.28 |     857 |      0.00 |      0.00 |
+|     8 |          9 |        7 |    2 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     7 |         10 |        7 |    1 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     6 |          9 |        6 |    1 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     5 |          6 |        6 |    2 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     4 |          6 |        6 |    2 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     3 |          6 |        6 |    2 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     2 |          6 |        6 |    2 |   n |   0.40 |     857 |      0.00 |      0.00 |
+|     1 |          6 |        6 |    1 |   n |   0.40 |     857 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     72
+maximal number of inequalities          :      7
+
+solving linear equality system .
+transformation to integer values 
+sorting system 
+sorting system 
+transformation to integer values 
+
+number of cone-points  :   32 
+number of conv-points  :    6 
+
+output written to file linear-quantifier-elimination.ieq.ieq.poi
+
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq 
+
+input file linear-quantifier-elimination.ieq.ieq o.k.
+dimension              :    8 
+number of equations    :    5 
+number of inequalities :   16 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 2
+ elimination of variable 3
+ elimination of variable 4
+ elimination of variable 5
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        1 |    2 |   n |   0.50 |      46 |      0.00 |      0.00 |
+|     3 |          3 |        2 |    2 |   n |   0.51 |      46 |      0.00 |      0.00 |
+|     2 |          2 |        3 |    2 |   n |   0.53 |      46 |      0.00 |      0.00 |
+|     1 |          1 |        4 |    2 |   n |   0.57 |      46 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    13 |          4 |        4 |    1 |   n |   0.20 |     845 |      0.00 |      0.00 |
+|    12 |          4 |        4 |    1 |   n |   0.20 |     845 |      0.00 |      0.00 |
+|    11 |          4 |        4 |    1 |   n |   0.20 |     845 |      0.00 |      0.00 |
+|    10 |          5 |        5 |    1 |   n |   0.28 |     845 |      0.00 |      0.00 |
+|     9 |          5 |        5 |    2 |   n |   0.28 |     845 |      0.00 |      0.00 |
+|     8 |          9 |        7 |    2 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     7 |         10 |        7 |    1 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     6 |          9 |        6 |    1 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     5 |          6 |        6 |    2 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     4 |          6 |        6 |    2 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     3 |          6 |        6 |    2 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     2 |          6 |        6 |    2 |   n |   0.40 |     845 |      0.00 |      0.00 |
+|     1 |          6 |        6 |    1 |   n |   0.40 |     845 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     72
+maximal number of inequalities          :      7
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    6 
+
+output written to file linear-quantifier-elimination.ieq.ieq.poi
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq.ieq.poi 
+
+invalid format of command line
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq.poi 
+
+input file linear-quantifier-elimination.ieq.ieq.poi o.k.
+dimension              :    8 
+number of cone-points  :    0 
+number of conv-points  :    6 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     9 |          9 |        1 |    1 |   n |   0.30 |      45 |      0.00 |      0.00 |
+|     8 |          8 |        2 |    2 |   n |   0.34 |      45 |      0.00 |      0.00 |
+|     7 |          7 |        3 |    1 |   n |   0.33 |      45 |      0.00 |      0.00 |
+ variable 1 eliminated - finite equation found
+|     6 |          6 |        4 |    1 |   n |   0.39 |      46 |      0.00 |      0.00 |
+|     5 |          5 |        5 |    2 |   n |   0.40 |      46 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|     4 |          4 |        6 |    2 |   n |   0.54 |      46 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|     3 |          3 |        7 |    2 |   n |   0.54 |      46 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|     2 |          2 |        8 |    1 |   n |   0.54 |      46 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|     1 |          1 |        9 |    1 |   n |   0.71 |      46 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     2 |          5 |        5 |    1 |   n |   0.28 |     843 |      0.00 |      0.00 |
+|     1 |          8 |        8 |    1 |   n |   0.40 |     843 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     13
+maximal number of inequalities          :      8
+
+transformation to integer values 
+sorting system 
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :    8 
+
+output written to file linear-quantifier-elimination.ieq.ieq.poi.ieq
+
+
+
+
+log for ./xporta -T check-solution.ieq 
+
+input file check-solution.ieq o.k.
+dimension              :    8 
+number of equations    :    2 
+number of inequalities :   24 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 5
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     7 |          7 |        1 |    1 |   n |   0.36 |      52 |      0.00 |      0.00 |
+|     6 |          6 |        2 |    1 |   n |   0.37 |      52 |      0.00 |      0.00 |
+|     5 |          5 |        3 |    1 |   n |   0.39 |      52 |      0.00 |      0.00 |
+|     4 |          4 |        4 |    1 |   n |   0.41 |      52 |      0.00 |      0.00 |
+|     3 |          3 |        5 |    1 |   n |   0.42 |      52 |      0.00 |      0.00 |
+|     2 |          2 |        6 |    1 |   n |   0.44 |      52 |      0.00 |      0.00 |
+|     1 |          1 |        7 |    2 |   n |   0.50 |      52 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    18 |          8 |        8 |    1 |   n |   0.16 |     849 |      0.00 |      0.00 |
+|    17 |          9 |        9 |    1 |   n |   0.18 |     849 |      0.00 |      0.00 |
+|    16 |         13 |       11 |    2 |   n |   0.23 |     849 |      0.00 |      0.00 |
+|    15 |         14 |       11 |    1 |   n |   0.23 |     849 |      0.00 |      0.00 |
+|    14 |         13 |       10 |    1 |   n |   0.22 |     849 |      0.00 |      0.00 |
+|    13 |         20 |       20 |    1 |   n |   0.36 |     849 |      0.00 |      0.00 |
+|    12 |         54 |       42 |    2 |   n |   0.45 |     849 |      0.00 |      0.00 |
+|    11 |        180 |       42 |    1 |   n |   0.45 |     849 |      0.00 |      0.00 |
+|    10 |        144 |       36 |    1 |   n |   0.44 |     849 |      0.00 |      0.00 |
+|     9 |         62 |       35 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+|     8 |         60 |       34 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     7 |         58 |       33 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     6 |         56 |       32 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     5 |         54 |       31 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     4 |         31 |       31 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     3 |         52 |       30 |    2 |   n |   0.43 |     849 |      0.00 |      0.00 |
+|     2 |         50 |       29 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+|     1 |         29 |       29 |    1 |   n |   0.44 |     849 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    473
+maximal number of inequalities          :     42
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :   29 
+
+output written to file check-solution.ieq.poi
+
+
+
+
+log for ./xporta -T check-solution.ieq.poi 
+
+input file check-solution.ieq.poi o.k.
+dimension              :    8 
+number of cone-points  :    0 
+number of conv-points  :   29 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     9 |          9 |        1 |    1 |   n |   0.40 |      55 |      0.00 |      0.00 |
+|     8 |          8 |        2 |    1 |   n |   0.43 |      55 |      0.00 |      0.00 |
+|     7 |          7 |        3 |    1 |   n |   0.38 |      55 |      0.00 |      0.00 |
+ variable 1 eliminated - finite equation found
+|     6 |          6 |        4 |    1 |   n |   0.43 |      56 |      0.00 |      0.00 |
+|     5 |          5 |        5 |    2 |   n |   0.45 |      56 |      0.00 |      0.00 |
+|     4 |          4 |        6 |    2 |   n |   0.50 |      56 |      0.00 |      0.00 |
+|     3 |          3 |        7 |    2 |   n |   0.44 |      56 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|     2 |          2 |        8 |    2 |   n |   0.51 |      56 |      0.00 |      0.00 |
+|     1 |          1 |        9 |    2 |   n |   0.53 |      56 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    22 |          8 |        8 |    1 |   n |   0.16 |     849 |      0.00 |      0.00 |
+|    21 |          9 |        9 |    1 |   n |   0.18 |     849 |      0.00 |      0.00 |
+|    20 |         12 |       12 |    1 |   n |   0.23 |     849 |      0.00 |      0.00 |
+|    19 |         18 |       14 |    1 |   n |   0.30 |     849 |      0.00 |      0.00 |
+|    18 |         28 |       22 |    2 |   n |   0.42 |     849 |      0.00 |      0.00 |
+|    17 |         57 |       21 |    2 |   n |   0.42 |     849 |      0.00 |      0.00 |
+|    16 |         56 |       22 |    2 |   n |   0.47 |     849 |      0.00 |      0.00 |
+|    15 |         52 |       24 |    2 |   n |   0.51 |     849 |      0.00 |      0.00 |
+|    14 |         68 |       28 |    2 |   n |   0.55 |     850 |      0.00 |      0.00 |
+|    13 |         56 |       29 |    2 |   n |   0.57 |     850 |      0.00 |      0.00 |
+|    12 |         95 |       27 |    2 |   n |   0.56 |     850 |      0.00 |      0.00 |
+|    11 |         92 |       28 |    2 |   n |   0.56 |     850 |      0.00 |      0.00 |
+|    10 |         49 |       38 |    2 |   n |   0.62 |     850 |      0.00 |      0.00 |
+|     9 |         95 |       50 |    3 |   n |   0.69 |     850 |      0.00 |      0.00 |
+|     8 |        240 |       42 |    3 |   n |   0.65 |     850 |      0.00 |      0.00 |
+|     7 |        118 |       38 |    3 |   n |   0.63 |     850 |      0.00 |      0.00 |
+|     6 |        106 |       34 |    2 |   n |   0.61 |     850 |      0.00 |      0.00 |
+|     5 |         86 |       30 |    2 |   n |   0.58 |     850 |      0.00 |      0.00 |
+|     4 |         72 |       27 |    2 |   n |   0.56 |     850 |      0.00 |      0.00 |
+|     3 |         63 |       27 |    2 |   n |   0.56 |     850 |      0.00 |      0.00 |
+|     2 |         66 |       24 |    2 |   n |   0.53 |     850 |      0.00 |      0.00 |
+|     1 |         38 |       23 |    2 |   n |   0.51 |     850 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    577
+maximal number of inequalities          :     50
+
+transformation to integer values 
+sorting system 
+transformation to integer values 
+sorting system 
+
+number of equations    :    2 
+number of inequalities :   23 
+
+output written to file check-solution.ieq.poi.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   18 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       18 |    1 |   n |   0.10 |      82 |      0.00 |      0.00 |
+|    14 |         14 |       18 |    2 |   n |   0.11 |      82 |      0.00 |      0.00 |
+|    13 |         13 |       18 |    1 |   n |   0.12 |      82 |      0.00 |      0.00 |
+|    12 |         12 |       18 |    1 |   n |   0.13 |      82 |      0.00 |      0.00 |
+|    11 |         11 |       18 |    1 |   n |   0.16 |      82 |      0.00 |      0.00 |
+|    10 |         10 |       18 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+|     9 |          9 |       18 |    1 |   n |   0.17 |      82 |      0.00 |      0.00 |
+|     8 |          8 |       18 |    1 |   n |   0.18 |      82 |      0.00 |      0.00 |
+|     7 |          7 |       18 |    1 |   n |   0.18 |      82 |      0.00 |      0.00 |
+|     6 |          6 |       18 |    1 |   n |   0.18 |      82 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       19 |    1 |   n |   0.20 |      83 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       20 |    2 |   n |   0.20 |      83 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       21 |    2 |   n |   0.22 |      83 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       22 |    1 |   n |   0.22 |      84 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       23 |    1 |   n |   0.26 |      84 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         18 |       18 |    1 |   n |   0.06 |     866 |      0.00 |      0.00 |
+|     5 |         18 |       17 |    1 |   n |   0.07 |     866 |      0.00 |      0.00 |
+|     4 |         17 |       16 |    1 |   n |   0.09 |     866 |      0.00 |      0.00 |
+|     3 |         16 |       16 |    1 |   n |   0.10 |     866 |      0.00 |      0.00 |
+|     2 |         16 |       15 |    1 |   n |   0.11 |     866 |      0.00 |      0.00 |
+|     1 |         15 |       14 |    1 |   n |   0.13 |     866 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     96
+maximal number of inequalities          :     18
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   14 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   32 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       32 |    1 |   n |   0.09 |     100 |      0.00 |      0.00 |
+|    14 |         14 |       32 |    2 |   n |   0.10 |     100 |      0.00 |      0.00 |
+|    13 |         13 |       32 |    1 |   n |   0.10 |     100 |      0.00 |      0.00 |
+|    12 |         12 |       32 |    1 |   n |   0.11 |     100 |      0.00 |      0.00 |
+|    11 |         11 |       32 |    1 |   n |   0.13 |     100 |      0.00 |      0.00 |
+|    10 |         10 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     9 |          9 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     8 |          8 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+|     7 |          7 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+|     6 |          6 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       33 |    1 |   n |   0.16 |     100 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       34 |    2 |   n |   0.18 |     101 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       35 |    2 |   n |   0.19 |     101 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       36 |    1 |   n |   0.20 |     102 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       37 |    1 |   n |   0.22 |     102 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         32 |       32 |    1 |   n |   0.03 |     887 |      0.00 |      0.00 |
+|     5 |         32 |       31 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     4 |         31 |       30 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     3 |         30 |       30 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     2 |         30 |       29 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+|     1 |         29 |       28 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    180
+maximal number of inequalities          :     32
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   28 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F test.ieq 
+
+input file test.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   32 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    16 |         16 |       32 |    1 |   n |   0.09 |     101 |      0.00 |      0.00 |
+|    15 |         15 |       32 |    2 |   n |   0.10 |     101 |      0.00 |      0.00 |
+|    14 |         14 |       32 |    1 |   n |   0.10 |     101 |      0.00 |      0.00 |
+|    13 |         13 |       32 |    1 |   n |   0.11 |     101 |      0.00 |      0.00 |
+|    12 |         12 |       32 |    1 |   n |   0.13 |     101 |      0.00 |      0.00 |
+|    11 |         11 |       32 |    1 |   n |   0.13 |     101 |      0.00 |      0.00 |
+|    10 |         10 |       32 |    1 |   n |   0.13 |     101 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F test.ieq 
+
+input file test.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   32 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       32 |    1 |   n |   0.09 |     100 |      0.00 |      0.00 |
+|    14 |         14 |       32 |    2 |   n |   0.09 |     100 |      0.00 |      0.00 |
+|    13 |         13 |       32 |    1 |   n |   0.10 |     100 |      0.00 |      0.00 |
+|    12 |         12 |       32 |    1 |   n |   0.11 |     100 |      0.00 |      0.00 |
+|    11 |         11 |       32 |    1 |   n |   0.12 |     100 |      0.00 |      0.00 |
+|    10 |         10 |       32 |    1 |   n |   0.13 |     100 |      0.00 |      0.00 |
+|     9 |          9 |       32 |    1 |   n |   0.13 |     100 |      0.00 |      0.00 |
+|     8 |          8 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     7 |          7 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     6 |          6 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       33 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       34 |    1 |   n |   0.17 |     101 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       35 |    1 |   n |   0.18 |     101 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       36 |    1 |   n |   0.20 |     102 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       37 |    1 |   n |   0.22 |     102 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         32 |       32 |    1 |   n |   0.03 |     887 |      0.00 |      0.00 |
+|     5 |         32 |       32 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     4 |         32 |       31 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     3 |         31 |       30 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     2 |         30 |       29 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+|     1 |         29 |       28 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    182
+maximal number of inequalities          :     32
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   28 
+
+output written to file test.ieq.ieq
+
+
+
+
+log for ./xporta -F test.ieq.ieq 
+
+input file test.ieq.ieq o.k.
+dimension              :   24 
+number of equations    :    5 
+number of inequalities :   28 
+
+Need 'ELIMINATION_ORDER' to eliminate variables
+
+
+
+log for ./xporta -T test.ieq.ieq 
+
+input file test.ieq.ieq o.k.
+dimension              :   24 
+number of equations    :    5 
+number of inequalities :   28 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 17
+ elimination of variable 18
+ elimination of variable 19
+ elimination of variable 20
+ elimination of variable 21
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    20 |         20 |        1 |    2 |   n |   0.09 |      87 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    19 |         19 |        2 |    2 |   n |   0.09 |      87 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    18 |         18 |        3 |    2 |   n |   0.10 |      88 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    17 |         17 |        4 |    2 |   n |   0.10 |      88 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    16 |         16 |        5 |    2 |   n |   0.11 |      88 |      0.00 |      0.00 |
+ variable 6 eliminated - finite equation found
+|    15 |         15 |        6 |    2 |   n |   0.12 |      89 |      0.00 |      0.00 |
+ variable 7 eliminated - finite equation found
+|    14 |         14 |        7 |    2 |   n |   0.13 |      89 |      0.00 |      0.00 |
+ variable 8 eliminated - finite equation found
+|    13 |         13 |        8 |    2 |   n |   0.14 |      89 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    12 |         12 |        9 |    2 |   n |   0.16 |      90 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|    11 |         11 |       10 |    2 |   n |   0.18 |      90 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|    10 |         10 |       11 |    2 |   n |   0.20 |      90 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|     9 |          9 |       12 |    2 |   n |   0.23 |      90 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|     8 |          8 |       13 |    2 |   n |   0.26 |      91 |      0.00 |      0.00 |
+ variable 14 eliminated - finite equation found
+|     7 |          7 |       14 |    2 |   n |   0.31 |      91 |      0.00 |      0.00 |
+ variable 15 eliminated - finite equation found
+|     6 |          6 |       15 |    2 |   n |   0.38 |      91 |      0.00 |      0.00 |
+ variable 16 eliminated - finite equation found
+|     5 |          5 |       16 |    2 |   n |   0.48 |      92 |      0.00 |      0.00 |
+|     4 |          4 |       17 |    2 |   n |   0.48 |      92 |      0.00 |      0.00 |
+|     3 |          3 |       18 |    2 |   n |   0.49 |      92 |      0.00 |      0.00 |
+|     2 |          2 |       19 |    2 |   n |   0.50 |      92 |      0.00 |      0.00 |
+|     1 |          1 |       20 |    2 |   n |   0.53 |      92 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    25 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    24 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    23 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    22 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    21 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    20 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    19 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    18 |          4 |        4 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+|    17 |          5 |        5 |    1 |   n |   0.28 |     863 |      0.00 |      0.00 |
+|    16 |          5 |        5 |    1 |   n |   0.28 |     863 |      0.00 |      0.00 |
+|    15 |          5 |        5 |    1 |   n |   0.28 |     863 |      0.00 |      0.00 |
+|    14 |          5 |        5 |    1 |   n |   0.28 |     863 |      0.00 |      0.00 |
+|    13 |          5 |        5 |    1 |   n |   0.28 |     863 |      0.00 |      0.00 |
+|    12 |          9 |        7 |    2 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|    11 |          7 |        7 |    2 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|    10 |          7 |        7 |    2 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     9 |         10 |        7 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     8 |          7 |        7 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     7 |          7 |        7 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     6 |          9 |        6 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     5 |          6 |        6 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     4 |          6 |        6 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     3 |          6 |        6 |    2 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     2 |          6 |        6 |    2 |   n |   0.40 |     863 |      0.00 |      0.00 |
+|     1 |          6 |        6 |    1 |   n |   0.40 |     863 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    135
+maximal number of inequalities          :      7
+
+solving linear equality system .
+transformation to integer values 
+sorting system 
+sorting system 
+transformation to integer values 
+
+number of cone-points  :   32 
+number of conv-points  :    6 
+
+output written to file test.ieq.ieq.poi
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   32 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       32 |    1 |   n |   0.09 |     100 |      0.00 |      0.00 |
+|    14 |         14 |       32 |    2 |   n |   0.10 |     100 |      0.00 |      0.00 |
+|    13 |         13 |       32 |    1 |   n |   0.10 |     100 |      0.00 |      0.00 |
+|    12 |         12 |       32 |    1 |   n |   0.11 |     100 |      0.00 |      0.00 |
+|    11 |         11 |       32 |    1 |   n |   0.13 |     100 |      0.00 |      0.00 |
+|    10 |         10 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     9 |          9 |       32 |    1 |   n |   0.14 |     100 |      0.00 |      0.00 |
+|     8 |          8 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+|     7 |          7 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+|     6 |          6 |       32 |    1 |   n |   0.15 |     100 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       33 |    1 |   n |   0.16 |     100 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       34 |    2 |   n |   0.18 |     101 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       35 |    2 |   n |   0.19 |     101 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       36 |    1 |   n |   0.20 |     102 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       37 |    1 |   n |   0.22 |     102 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         32 |       32 |    1 |   n |   0.03 |     887 |      0.00 |      0.00 |
+|     5 |         32 |       31 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     4 |         31 |       30 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     3 |         30 |       30 |    1 |   n |   0.04 |     887 |      0.00 |      0.00 |
+|     2 |         30 |       29 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+|     1 |         29 |       28 |    1 |   n |   0.05 |     887 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    180
+maximal number of inequalities          :     32
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   28 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 18 eliminated - finite equation found
+|     4 |          4 |       18 |    2 |   n |   0.21 |      81 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    2 |   n |   0.23 |      81 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    1 |   n |   0.24 |      81 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    1 |   n |   0.25 |      82 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |         16 |       16 |    1 |   n |   0.07 |     864 |      0.00 |      0.00 |
+|     5 |         16 |       15 |    1 |   n |   0.09 |     864 |      0.00 |      0.00 |
+|     4 |         15 |       14 |    1 |   n |   0.10 |     864 |      0.00 |      0.00 |
+|     3 |         14 |       14 |    1 |   n |   0.12 |     864 |      0.00 |      0.00 |
+|     2 |         14 |       13 |    1 |   n |   0.14 |     864 |      0.00 |      0.00 |
+|     1 |         13 |       12 |    1 |   n |   0.16 |     864 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     84
+maximal number of inequalities          :     16
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    5 
+number of inequalities :   12 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   16 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    16 |         16 |       16 |    1 |   n |   0.10 |      81 |      0.00 |      0.00 |
+|    15 |         15 |       16 |    2 |   n |   0.11 |      81 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    1 |   n |   0.12 |      81 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.13 |      81 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.17 |      81 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.16 |      81 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.16 |      81 |      0.00 |      0.00 |
+The 8. equation is redundant
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   24 
+number of equations    :   15 
+number of inequalities :   16 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    15 |         15 |       16 |    1 |   n |   0.10 |      80 |      0.00 |      0.00 |
+|    14 |         14 |       16 |    2 |   n |   0.11 |      80 |      0.00 |      0.00 |
+|    13 |         13 |       16 |    1 |   n |   0.12 |      80 |      0.00 |      0.00 |
+|    12 |         12 |       16 |    1 |   n |   0.13 |      80 |      0.00 |      0.00 |
+|    11 |         11 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.16 |      80 |      0.00 |      0.00 |
+|     9 |          9 |       16 |    1 |   n |   0.17 |      80 |      0.00 |      0.00 |
+|     8 |          8 |       16 |    1 |   n |   0.18 |      80 |      0.00 |      0.00 |
+|     7 |          7 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+|     6 |          6 |       16 |    1 |   n |   0.19 |      80 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     5 |          5 |       17 |    1 |   n |   0.20 |      80 |      0.00 |      0.00 |
+|     4 |          4 |       17 |    1 |   n |   0.26 |      80 |      0.00 |      0.00 |
+|     3 |          3 |       17 |    1 |   n |   0.28 |      80 |      0.00 |      0.00 |
+|     2 |          2 |       17 |    1 |   n |   0.30 |      80 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       18 |    1 |   n |   0.32 |      81 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |         24 |       24 |    1 |   n |   0.10 |     863 |      0.00 |      0.00 |
+|     2 |         48 |       32 |    1 |   n |   0.14 |     863 |      0.00 |      0.00 |
+|     1 |        112 |       48 |    1 |   n |   0.20 |     863 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    104
+maximal number of inequalities          :     48
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    2 
+number of inequalities :   48 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq 
+
+input file linear-quantifier-elimination.ieq.ieq o.k.
+dimension              :   24 
+number of equations    :    2 
+number of inequalities :   48 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 17
+ elimination of variable 21
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+ variable 1 eliminated - finite equation found
+|    23 |         23 |        1 |    2 |   n |   0.11 |     116 |      0.00 |      0.00 |
+ variable 2 eliminated - finite equation found
+|    22 |         22 |        2 |    2 |   n |   0.12 |     116 |      0.00 |      0.00 |
+ variable 3 eliminated - finite equation found
+|    21 |         21 |        3 |    2 |   n |   0.13 |     117 |      0.00 |      0.00 |
+ variable 4 eliminated - finite equation found
+|    20 |         20 |        4 |    2 |   n |   0.13 |     117 |      0.00 |      0.00 |
+ variable 5 eliminated - finite equation found
+|    19 |         19 |        5 |    2 |   n |   0.14 |     118 |      0.00 |      0.00 |
+ variable 6 eliminated - finite equation found
+|    18 |         18 |        6 |    2 |   n |   0.15 |     118 |      0.00 |      0.00 |
+ variable 7 eliminated - finite equation found
+|    17 |         17 |        7 |    2 |   n |   0.16 |     118 |      0.00 |      0.00 |
+ variable 8 eliminated - finite equation found
+|    16 |         16 |        8 |    2 |   n |   0.17 |     119 |      0.00 |      0.00 |
+ variable 9 eliminated - finite equation found
+|    15 |         15 |        9 |    2 |   n |   0.19 |     119 |      0.00 |      0.00 |
+ variable 10 eliminated - finite equation found
+|    14 |         14 |       10 |    2 |   n |   0.21 |     119 |      0.00 |      0.00 |
+ variable 11 eliminated - finite equation found
+|    13 |         13 |       11 |    2 |   n |   0.23 |     120 |      0.00 |      0.00 |
+ variable 12 eliminated - finite equation found
+|    12 |         12 |       12 |    2 |   n |   0.25 |     120 |      0.00 |      0.00 |
+ variable 13 eliminated - finite equation found
+|    11 |         11 |       13 |    2 |   n |   0.28 |     120 |      0.00 |      0.00 |
+ variable 14 eliminated - finite equation found
+|    10 |         10 |       14 |    2 |   n |   0.31 |     121 |      0.00 |      0.00 |
+ variable 15 eliminated - finite equation found
+|     9 |          9 |       15 |    2 |   n |   0.35 |     121 |      0.00 |      0.00 |
+ variable 16 eliminated - finite equation found
+|     8 |          8 |       16 |    2 |   n |   0.41 |     122 |      0.00 |      0.00 |
+|     7 |          7 |       17 |    2 |   n |   0.41 |     122 |      0.00 |      0.00 |
+|     6 |          6 |       18 |    2 |   n |   0.42 |     122 |      0.00 |      0.00 |
+|     5 |          5 |       19 |    2 |   n |   0.42 |     122 |      0.00 |      0.00 |
+|     4 |          4 |       20 |    2 |   n |   0.43 |     122 |      0.00 |      0.00 |
+|     3 |          3 |       21 |    2 |   n |   0.43 |     122 |      0.00 |      0.00 |
+|     2 |          2 |       22 |    2 |   n |   0.44 |     122 |      0.00 |      0.00 |
+|     1 |          1 |       23 |    2 |   n |   0.49 |     122 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    42 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    41 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    40 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    39 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    38 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    37 |          7 |        7 |    1 |   n |   0.12 |     875 |      0.00 |      0.00 |
+|    36 |          8 |        8 |    1 |   n |   0.16 |     875 |      0.00 |      0.00 |
+|    35 |          9 |        9 |    1 |   n |   0.18 |     875 |      0.00 |      0.00 |
+|    34 |          9 |        9 |    1 |   n |   0.18 |     875 |      0.00 |      0.00 |
+|    33 |          9 |        9 |    1 |   n |   0.18 |     875 |      0.00 |      0.00 |
+|    32 |         13 |       11 |    2 |   n |   0.23 |     875 |      0.00 |      0.00 |
+|    31 |         14 |       11 |    1 |   n |   0.23 |     875 |      0.00 |      0.00 |
+|    30 |         23 |       23 |    1 |   n |   0.36 |     875 |      0.00 |      0.00 |
+|    29 |         63 |       49 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    28 |        238 |       49 |    1 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    27 |         49 |       49 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    26 |         49 |       49 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    25 |         49 |       49 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    24 |         49 |       49 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    23 |        189 |       42 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    22 |        144 |       36 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    21 |         36 |       36 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    20 |         62 |       35 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    19 |         60 |       34 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    18 |         58 |       33 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    17 |         56 |       32 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    16 |         32 |       32 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    15 |         32 |       32 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    14 |         54 |       31 |    2 |   n |   0.45 |     876 |      0.00 |      0.00 |
+|    13 |         52 |       30 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    12 |         50 |       29 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    11 |         48 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|    10 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|     9 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|     8 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|     7 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.00 |
+|     6 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.01 |
+|     5 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.01 |
+|     4 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.01 |
+|     3 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.01 |
+|     2 |         28 |       28 |    2 |   n |   0.44 |     876 |      0.00 |      0.01 |
+|     1 |         28 |       28 |    1 |   n |   0.44 |     876 |      0.00 |      0.01 |
+
+sum of inequalities over all iterations :   1126
+maximal number of inequalities          :     49
+
+solving linear equality system .
+transformation to integer values 
+sorting system 
+sorting system 
+transformation to integer values 
+
+number of cone-points  :   32 
+number of conv-points  :   28 
+
+linear-quantifier-elimination.ieq.ieq.poi moved into linear-quantifier-elimination.ieq.ieq.poi%
+output written to file linear-quantifier-elimination.ieq.ieq.poi
+
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq.poi 
+
+input file linear-quantifier-elimination.ieq.ieq.poi o.k.
+dimension              :   24 
+number of cone-points  :   32 
+number of conv-points  :   28 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    25 |         25 |        1 |    1 |   n |   0.09 |     134 |      0.00 |      0.00 |
+|    24 |         24 |        2 |    1 |   n |   0.09 |     134 |      0.00 |      0.00 |
+|    23 |         23 |        3 |    1 |   n |   0.09 |     134 |      0.00 |      0.00 |
+|    22 |         22 |        4 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    21 |         21 |        5 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    20 |         20 |        6 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    19 |         19 |        7 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    18 |         18 |        8 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    17 |         17 |        9 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    16 |         16 |       10 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    15 |         15 |       11 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    14 |         14 |       12 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    13 |         13 |       13 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    12 |         12 |       14 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    11 |         11 |       15 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|    10 |         10 |       16 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|     9 |          9 |       17 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|     8 |          8 |       18 |    1 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|     7 |          7 |       19 |    1 |   n |   0.09 |     134 |      0.00 |      0.00 |
+ variable 17 eliminated - finite equation found
+|     6 |          6 |       20 |    1 |   n |   0.09 |     134 |      0.00 |      0.00 |
+|     5 |          5 |       21 |    2 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|     4 |          4 |       22 |    2 |   n |   0.10 |     134 |      0.00 |      0.00 |
+|     3 |          3 |       23 |    2 |   n |   0.09 |     134 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     2 |          2 |       24 |    2 |   n |   0.10 |     135 |      0.00 |      0.00 |
+|     1 |          1 |       25 |    2 |   n |   0.10 |     135 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    37 |         22 |       22 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    36 |         21 |       21 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    35 |         20 |       20 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    34 |         19 |       19 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    33 |         18 |       18 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    32 |         17 |       17 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    31 |         16 |       16 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    30 |         15 |       15 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    29 |         14 |       14 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    28 |         13 |       13 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    27 |         12 |       12 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    26 |         11 |       11 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    25 |         10 |       10 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    24 |          9 |        9 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    23 |          8 |        8 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    22 |          7 |        7 |    1 |   n |   0.04 |     898 |      0.00 |      0.00 |
+|    21 |          8 |        8 |    1 |   n |   0.05 |     898 |      0.00 |      0.00 |
+|    20 |          9 |        9 |    1 |   n |   0.06 |     898 |      0.00 |      0.00 |
+|    19 |         12 |       12 |    1 |   n |   0.08 |     898 |      0.00 |      0.00 |
+|    18 |         18 |       14 |    1 |   n |   0.10 |     898 |      0.00 |      0.00 |
+|    17 |         28 |       22 |    2 |   n |   0.14 |     898 |      0.00 |      0.00 |
+|    16 |         57 |       21 |    2 |   n |   0.14 |     898 |      0.00 |      0.00 |
+|    15 |         56 |       22 |    2 |   n |   0.16 |     898 |      0.00 |      0.00 |
+|    14 |         52 |       24 |    2 |   n |   0.17 |     898 |      0.00 |      0.00 |
+|    13 |         68 |       28 |    2 |   n |   0.18 |     898 |      0.00 |      0.01 |
+|    12 |         83 |       27 |    2 |   n |   0.19 |     898 |      0.00 |      0.01 |
+|    11 |         92 |       30 |    2 |   n |   0.19 |     898 |      0.00 |      0.01 |
+|    10 |         53 |       41 |    2 |   n |   0.21 |     898 |      0.00 |      0.01 |
+|     9 |        104 |       54 |    3 |   n |   0.23 |     898 |      0.00 |      0.01 |
+|     8 |        284 |       46 |    3 |   n |   0.22 |     898 |      0.00 |      0.01 |
+|     7 |        160 |       40 |    3 |   n |   0.21 |     898 |      0.00 |      0.01 |
+|     6 |        116 |       36 |    2 |   n |   0.21 |     898 |      0.00 |      0.01 |
+|     5 |         96 |       32 |    2 |   n |   0.20 |     898 |      0.00 |      0.01 |
+|     4 |         77 |       29 |    2 |   n |   0.19 |     898 |      0.00 |      0.01 |
+|     3 |         68 |       28 |    2 |   n |   0.19 |     898 |      0.00 |      0.01 |
+|     2 |         67 |       25 |    2 |   n |   0.18 |     898 |      0.00 |      0.01 |
+|     1 |         40 |       24 |    2 |   n |   0.17 |     898 |      0.00 |      0.01 |
+
+sum of inequalities over all iterations :    804
+maximal number of inequalities          :     54
+
+transformation to integer values 
+sorting system 
+transformation to integer values 
+sorting system 
+
+number of equations    :    2 
+number of inequalities :   24 
+
+linear-quantifier-elimination.ieq.ieq.poi.ieq moved into linear-quantifier-elimination.ieq.ieq.poi.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq.poi.ieq
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    4 
+number of equations    :    2 
+number of inequalities :    4 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |          3 |        1 |    1 |   n |   0.48 |      41 |      0.00 |      0.00 |
+|     2 |          2 |        2 |    1 |   n |   0.56 |      41 |      0.00 |      0.00 |
+|     1 |          1 |        3 |    1 |   n |   0.73 |      41 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     2 |          4 |        4 |    1 |   n |   0.38 |     841 |      0.00 |      0.00 |
+|     1 |          4 |        4 |    1 |   n |   0.38 |     841 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :      8
+maximal number of inequalities          :      4
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    4 
+
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    6 
+number of equations    :    3 
+number of inequalities :    6 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        1 |    1 |   n |   0.35 |      43 |      0.00 |      0.00 |
+|     3 |          3 |        2 |    1 |   n |   0.39 |      43 |      0.00 |      0.00 |
+|     2 |          2 |        3 |    1 |   n |   0.44 |      43 |      0.00 |      0.00 |
+|     1 |          1 |        4 |    1 |   n |   0.61 |      43 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |          5 |        5 |    1 |   n |   0.28 |     842 |      0.00 |      0.00 |
+|     2 |          8 |        8 |    1 |   n |   0.40 |     842 |      0.00 |      0.00 |
+|     1 |          8 |        8 |    1 |   n |   0.40 |     842 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     21
+maximal number of inequalities          :      8
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    8 
+
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    6 
+number of equations    :    4 
+number of inequalities :    6 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 2
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |          3 |        1 |    1 |   n |   0.44 |      42 |      0.00 |      0.00 |
+|     2 |          2 |        2 |    1 |   n |   0.50 |      42 |      0.00 |      0.00 |
+|     1 |          1 |        3 |    1 |   n |   0.52 |      42 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          3 |        3 |    1 |   n |   0.25 |     842 |      0.00 |      0.00 |
+|     3 |          3 |        3 |    1 |   n |   0.33 |     842 |      0.00 |      0.00 |
+|     2 |          4 |        4 |    1 |   n |   0.50 |     842 |      0.00 |      0.00 |
+|     1 |          4 |        4 |    1 |   n |   0.50 |     842 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     14
+maximal number of inequalities          :      4
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    4 
+
+vertex-enumeration.ieq.poi moved into vertex-enumeration.ieq.poi%
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    6 
+number of equations    :    4 
+number of inequalities :    6 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 2
+
+no valid point known 
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    6 
+number of equations    :    4 
+number of inequalities :    6 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 2
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     3 |          3 |        1 |    2 |   n |   0.63 |      42 |      0.00 |      0.00 |
+|     2 |          2 |        2 |    2 |   n |   0.71 |      42 |      0.00 |      0.00 |
+|     1 |          1 |        3 |    2 |   n |   0.86 |      42 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        4 |    2 |   n |   0.38 |     842 |      0.00 |      0.00 |
+|     3 |          6 |        5 |    3 |   n |   0.45 |     842 |      0.00 |      0.00 |
+|     2 |          8 |        6 |    3 |   n |   0.50 |     842 |      0.00 |      0.00 |
+|     1 |          6 |        6 |    2 |   n |   0.50 |     842 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     21
+maximal number of inequalities          :      6
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :    6 
+
+vertex-enumeration.ieq.poi moved into vertex-enumeration.ieq.poi%
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   27 
+number of equations    :   12 
+number of inequalities :   18 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    12 |         12 |       18 |    2 |   n |   0.11 |      83 |      0.00 |      0.00 |
+|    11 |         11 |       18 |    2 |   n |   0.12 |      83 |      0.00 |      0.00 |
+|    10 |         10 |       18 |    2 |   n |   0.12 |      83 |      0.00 |      0.00 |
+|     9 |          9 |       18 |    2 |   n |   0.13 |      83 |      0.00 |      0.00 |
+|     8 |          8 |       18 |    2 |   n |   0.14 |      83 |      0.00 |      0.00 |
+|     7 |          7 |       18 |    2 |   n |   0.15 |      83 |      0.00 |      0.00 |
+|     6 |          6 |       18 |    2 |   n |   0.16 |      83 |      0.00 |      0.00 |
+|     5 |          5 |       18 |    2 |   n |   0.16 |      83 |      0.00 |      0.00 |
+|     4 |          4 |       18 |    2 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    3 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    3 |   n |   0.20 |      84 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    3 |   n |   0.21 |      84 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     9 |         18 |       18 |    2 |   n |   0.06 |     868 |      0.00 |      0.00 |
+|     8 |         19 |       18 |    3 |   n |   0.08 |     868 |      0.00 |      0.00 |
+|     7 |         20 |       18 |    4 |   n |   0.11 |     868 |      0.00 |      0.00 |
+|     6 |         18 |       18 |    4 |   n |   0.12 |     868 |      0.00 |      0.00 |
+|     5 |         19 |       18 |    4 |   n |   0.13 |     868 |      0.00 |      0.00 |
+|     4 |         20 |       18 |    4 |   n |   0.16 |     868 |      0.00 |      0.00 |
+|     3 |         18 |       18 |    4 |   n |   0.17 |     868 |      0.00 |      0.00 |
+|     2 |         19 |       18 |    4 |   n |   0.19 |     868 |      0.00 |      0.00 |
+|     1 |         20 |       18 |    4 |   n |   0.21 |     868 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    162
+maximal number of inequalities          :     18
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    3 
+number of inequalities :   18 
+
+output written to file linear-quantifier-elimination.ieq.ieq
+
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq 
+
+input file linear-quantifier-elimination.ieq.ieq o.k.
+dimension              :   27 
+number of equations    :    3 
+number of inequalities :   18 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 19
+ elimination of variable 20
+ elimination of variable 21
+
+no valid point known 
+
+
+
+log for ./xporta -T linear-quantifier-elimination.ieq.ieq 
+
+input file linear-quantifier-elimination.ieq.ieq o.k.
+dimension              :   27 
+number of equations    :    3 
+number of inequalities :   18 
+
+input point not valid (equalnum : 1)
+
+
+
+log for ./xporta -F linear-quantifier-elimination.ieq 
+
+input file linear-quantifier-elimination.ieq o.k.
+dimension              :   27 
+number of equations    :   12 
+number of inequalities :   18 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|    12 |         12 |       18 |    2 |   n |   0.11 |      83 |      0.00 |      0.00 |
+|    11 |         11 |       18 |    2 |   n |   0.12 |      83 |      0.00 |      0.00 |
+|    10 |         10 |       18 |    2 |   n |   0.12 |      83 |      0.00 |      0.00 |
+|     9 |          9 |       18 |    2 |   n |   0.13 |      83 |      0.00 |      0.00 |
+|     8 |          8 |       18 |    2 |   n |   0.14 |      83 |      0.00 |      0.00 |
+|     7 |          7 |       18 |    2 |   n |   0.15 |      83 |      0.00 |      0.00 |
+|     6 |          6 |       18 |    2 |   n |   0.16 |      83 |      0.00 |      0.00 |
+|     5 |          5 |       18 |    2 |   n |   0.16 |      83 |      0.00 |      0.00 |
+|     4 |          4 |       18 |    2 |   n |   0.17 |      83 |      0.00 |      0.00 |
+ variable 19 eliminated - finite equation found
+|     3 |          3 |       19 |    3 |   n |   0.18 |      83 |      0.00 |      0.00 |
+ variable 20 eliminated - finite equation found
+|     2 |          2 |       20 |    3 |   n |   0.20 |      84 |      0.00 |      0.00 |
+ variable 21 eliminated - finite equation found
+|     1 |          1 |       21 |    3 |   n |   0.21 |      84 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     9 |         18 |       18 |    2 |   n |   0.06 |     868 |      0.00 |      0.00 |
+|     8 |         19 |       18 |    3 |   n |   0.08 |     868 |      0.00 |      0.00 |
+|     7 |         20 |       18 |    4 |   n |   0.11 |     868 |      0.00 |      0.00 |
+|     6 |         18 |       18 |    4 |   n |   0.12 |     868 |      0.00 |      0.00 |
+|     5 |         19 |       18 |    4 |   n |   0.13 |     868 |      0.00 |      0.00 |
+|     4 |         20 |       18 |    4 |   n |   0.16 |     868 |      0.00 |      0.00 |
+|     3 |         18 |       18 |    4 |   n |   0.17 |     868 |      0.00 |      0.00 |
+|     2 |         19 |       18 |    4 |   n |   0.19 |     868 |      0.00 |      0.00 |
+|     1 |         20 |       18 |    4 |   n |   0.21 |     868 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    162
+maximal number of inequalities          :     18
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    3 
+number of inequalities :   18 
+
+linear-quantifier-elimination.ieq.ieq moved into linear-quantifier-elimination.ieq.ieq%
+output written to file linear-quantifier-elimination.ieq.ieq
+
