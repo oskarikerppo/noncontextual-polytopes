@@ -136,13 +136,13 @@ value1 = 1
 value2 = 2
 
 tol = 10e-10
-
+dim = 2
 
 #c_412
-r1 = random_rho(A=3, rank_lmt=3)
-r2 = random_rho(A=3, rank_lmt=3)
-r3 = random_rho(A=3, rank_lmt=3)
-r4 = random_rho(A=3, rank_lmt=3)
+r1 = random_rho(A=dim, rank_lmt=1)
+r2 = random_rho(A=dim, rank_lmt=1)
+r3 = random_rho(A=dim, rank_lmt=1)
+r4 = random_rho(A=dim, rank_lmt=1)
 
 x = [r1, r2, r3, r4]
 x = [picos.Constant(r) for r in x]
@@ -152,14 +152,14 @@ while value2 - value1 >= tol:
 
     x = [picos.Constant(r.value) for r in x]
 
-    M12 = [picos.HermitianVariable("M_12_1", 3), picos.HermitianVariable("M_12_2", 3)]
-    M13 = [picos.HermitianVariable("M_13_1", 3), picos.HermitianVariable("M_13_2", 3)]
-    M14 = [picos.HermitianVariable("M_14_1", 3), picos.HermitianVariable("M_14_2", 3)]
-    M23 = [picos.HermitianVariable("M_23_1", 3), picos.HermitianVariable("M_23_2", 3)]
-    M24 = [picos.HermitianVariable("M_24_1", 3), picos.HermitianVariable("M_24_2", 3)]
-    M34 = [picos.HermitianVariable("M_34_1", 3), picos.HermitianVariable("M_34_2", 3)]
+    M12 = [picos.HermitianVariable("M_12_1", dim), picos.HermitianVariable("M_12_2", dim)]
+    M13 = [picos.HermitianVariable("M_13_1", dim), picos.HermitianVariable("M_13_2", dim)]
+    M14 = [picos.HermitianVariable("M_14_1", dim), picos.HermitianVariable("M_14_2", dim)]
+    M23 = [picos.HermitianVariable("M_23_1", dim), picos.HermitianVariable("M_23_2", dim)]
+    M24 = [picos.HermitianVariable("M_24_1", dim), picos.HermitianVariable("M_24_2", dim)]
+    M34 = [picos.HermitianVariable("M_34_1", dim), picos.HermitianVariable("M_34_2", dim)]
     M = [M12, M13, M14, M23, M24, M34]
-    I = picos.Constant(np.eye(3))
+    I = picos.Constant(np.eye(dim))
 
     P = picos.Problem()
     P.set_objective("max",  (-x[0] | M14[0]) - (x[0] | M13[0]) - (x[0] | M12[0]) -
@@ -193,7 +193,7 @@ while value2 - value1 >= tol:
     M24 = [picos.Constant(np.array(picos.value(m))) for m in M24]
     M34 = [picos.Constant(np.array(picos.value(m))) for m in M34]
     M = [M12, M13, M14, M23, M24, M34]
-    x = [picos.HermitianVariable("r{}".format(i), 3) for i in range(1,5)] 
+    x = [picos.HermitianVariable("r{}".format(i), dim) for i in range(1,5)] 
 
     P = picos.Problem()
     P.set_objective("max",  (-x[0] | M14[0]) - (x[0] | M13[0]) - (x[0] | M12[0]) -
@@ -204,9 +204,9 @@ while value2 - value1 >= tol:
 
     P.add_list_of_constraints([r >> 0 for r in x])
     P.add_list_of_constraints([picos.trace(r) == 1 for r in x])
-    #P.add_constraint(x[0] + x[1] == x[2] + x[3])
+    P.add_constraint(x[0] + x[1] == x[2] + x[3])
 
-    P.solve(solver = "cvxopt")
+    P.solve(solver = "mosek")
 
     value2 = picos.value((x[0] | M14[1]) + (x[0] | M13[1]) + (x[0] | M12[1]) + (x[1] | M24[1]) + (x[1] | M23[1]) + (x[1] | M12[0]) + (x[2] | M34[1]) + (x[2] | M23[0]) + (x[2] | M13[0]) + (x[3] | M34[0]) + (x[3] | M24[0]) + (x[3] | M14[0])).real
     print(value2)
@@ -221,6 +221,19 @@ print((-x[0] | M14[0]) - (x[0] | M13[0]) - (x[0] | M12[0]) -
 
 print("4.828427122593918")
 print("5.999999999959565") #no equivalences
+
+print("rho1")
+for j in range(6):
+    print((x[0] | M[j][0]).value)
+print("rho2")
+for j in range(6):
+    print((x[1] | M[j][0]).value)
+print("rho3")
+for j in range(6):
+    print((x[2] | M[j][0]).value)
+print("rho4")
+for j in range(6):
+    print((x[3] | M[j][0]).value)
 die
 
 '''
