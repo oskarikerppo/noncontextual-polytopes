@@ -28,7 +28,7 @@ for y in range(Y):
 for x in range(X):
 	G.append(picos.HermitianVariable("Moment_matrix_{}".format(x), (O, O))) # declare hermitian SDP variables
 	conP.append(G[x] >> 0) # Semi-definiteness contraint
-#conP.append(G[0] + G[1] == G[2] + G[3]) # preparation equivalences
+conP.append(G[0] + G[1] == G[2] + G[3]) # preparation equivalences
 #conP.append(G[0] + G[1] == G[4] + G[5])
 
 
