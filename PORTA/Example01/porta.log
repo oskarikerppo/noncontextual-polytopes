@@ -1,0 +1,247 @@
+
+
+
+log for ./xporta -T example.ieq 
+
+input file example.ieq o.k.
+dimension              :    5 
+number of equations    :    2 
+number of inequalities :    4 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 4
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        1 |    4 |   n |   0.38 |      42 |      0.00 |      0.00 |
+|     3 |          3 |        2 |    4 |   n |   0.39 |      42 |      0.00 |      0.00 |
+|     2 |          2 |        3 |    4 |   n |   0.50 |      42 |      0.00 |      0.00 |
+|     1 |          1 |        4 |    2 |   n |   0.55 |      42 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     1 |          4 |        4 |    1 |   n |   0.20 |     841 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :      4
+maximal number of inequalities          :      4
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    1 
+number of conv-points  :    3 
+
+output written to file example.ieq.poi
+
+
+
+
+log for ./xporta -T example.poi 
+
+input file example.poi o.k.
+dimension              :    3 
+number of cone-points  :    1 
+number of conv-points  :    3 
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          4 |        1 |    4 |   n |   0.46 |      41 |      0.00 |      0.00 |
+|     3 |          3 |        2 |    5 |   n |   0.50 |      41 |      0.00 |      0.00 |
+|     2 |          2 |        3 |    5 |   n |   0.55 |      41 |      0.00 |      0.00 |
+|     1 |          1 |        4 |    5 |   n |   0.62 |      41 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+
+sum of inequalities over all iterations :      0
+maximal number of inequalities          :      0
+
+transformation to integer values 
+sorting system 
+
+number of equations    :    0 
+number of inequalities :    4 
+
+output written to file example.poi.ieq
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :   12 
+number of equations    :    6 
+number of inequalities :   12 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 7
+ elimination of variable 9
+ elimination of variable 11
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     7 |          7 |        1 |    2 |   n |   0.23 |      49 |      0.00 |      0.00 |
+|     6 |          6 |        2 |    2 |   n |   0.24 |      49 |      0.00 |      0.00 |
+|     5 |          5 |        3 |    2 |   n |   0.24 |      49 |      0.00 |      0.00 |
+|     4 |          4 |        4 |    2 |   n |   0.25 |      49 |      0.00 |      0.00 |
+|     3 |          3 |        5 |    2 |   n |   0.26 |      49 |      0.00 |      0.00 |
+|     2 |          2 |        6 |    2 |   n |   0.27 |      49 |      0.00 |      0.00 |
+|     1 |          1 |        7 |    2 |   n |   0.40 |      49 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |          8 |        8 |    2 |   n |   0.16 |     847 |      0.00 |      0.00 |
+|     5 |         11 |       11 |    2 |   n |   0.22 |     847 |      0.00 |      0.00 |
+|     4 |         18 |       18 |    2 |   n |   0.29 |     847 |      0.00 |      0.00 |
+|     3 |         33 |       33 |    2 |   n |   0.37 |     848 |      0.00 |      0.00 |
+|     2 |         64 |       64 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+|     1 |         64 |       64 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    198
+maximal number of inequalities          :     64
+
+solving linear equality system ..
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :   64 
+
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+vertex-enumeration.ieq, line 4 : invalid format of input file 
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :    8 
+number of equations    :    4 
+number of inequalities :    8 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 7
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     5 |          5 |        1 |    2 |   n |   0.32 |      44 |      0.00 |      0.00 |
+|     4 |          4 |        2 |    2 |   n |   0.33 |      44 |      0.00 |      0.00 |
+|     3 |          3 |        3 |    2 |   n |   0.35 |      44 |      0.00 |      0.00 |
+|     2 |          2 |        4 |    2 |   n |   0.36 |      44 |      0.00 |      0.00 |
+|     1 |          1 |        5 |    2 |   n |   0.53 |      44 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     4 |          6 |        6 |    2 |   n |   0.22 |     843 |      0.00 |      0.00 |
+|     3 |          9 |        9 |    2 |   n |   0.31 |     844 |      0.00 |      0.00 |
+|     2 |         16 |       16 |    2 |   n |   0.42 |     844 |      0.00 |      0.00 |
+|     1 |         16 |       16 |    2 |   n |   0.42 |     844 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :     47
+maximal number of inequalities          :     16
+
+solving linear equality system .
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :   16 
+
+vertex-enumeration.ieq.poi moved into vertex-enumeration.ieq.poi%
+output written to file vertex-enumeration.ieq.poi
+
+
+
+
+log for ./xporta -T vertex-enumeration.ieq 
+
+input file vertex-enumeration.ieq o.k.
+dimension              :   12 
+number of equations    :    6 
+number of inequalities :   12 
+
+Gauss - elimination (input - equations) :
+ elimination of variable 1
+ elimination of variable 3
+ elimination of variable 5
+ elimination of variable 7
+ elimination of variable 9
+ elimination of variable 11
+
+GAUSS - ELIMINATION:
+| iter- |     # equa |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |            |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |            |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     7 |          7 |        1 |    2 |   n |   0.23 |      49 |      0.00 |      0.00 |
+|     6 |          6 |        2 |    2 |   n |   0.24 |      49 |      0.00 |      0.00 |
+|     5 |          5 |        3 |    2 |   n |   0.24 |      49 |      0.00 |      0.00 |
+|     4 |          4 |        4 |    2 |   n |   0.25 |      49 |      0.00 |      0.00 |
+|     3 |          3 |        5 |    2 |   n |   0.26 |      49 |      0.00 |      0.00 |
+|     2 |          2 |        6 |    2 |   n |   0.27 |      49 |      0.00 |      0.00 |
+|     1 |          1 |        7 |    2 |   n |   0.40 |      49 |      0.00 |      0.00 |
+
+FOURIER - MOTZKIN - ELIMINATION:
+| iter- |      upper |  # ineq  |   max| long|   non- |     mem |  cpu-time | real-time |
+| ation |      bound |          |  bit-|arith|  zeros |    used |      used |      used |
+|       |     # ineq |          |length|metic|   in % |   in kB |    in sec |    in sec |
+|-------|------------|----------|------|-----|--------|---------|-----------|-----------|
+|     6 |          8 |        8 |    2 |   n |   0.16 |     847 |      0.00 |      0.00 |
+|     5 |         11 |       11 |    2 |   n |   0.22 |     847 |      0.00 |      0.00 |
+|     4 |         18 |       18 |    2 |   n |   0.29 |     847 |      0.00 |      0.00 |
+|     3 |         33 |       33 |    2 |   n |   0.37 |     848 |      0.00 |      0.00 |
+|     2 |         64 |       64 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+|     1 |         64 |       64 |    2 |   n |   0.44 |     849 |      0.00 |      0.00 |
+
+sum of inequalities over all iterations :    198
+maximal number of inequalities          :     64
+
+solving linear equality system ..
+sorting system 
+transformation to integer values 
+
+number of cone-points  :    0 
+number of conv-points  :   64 
+
+vertex-enumeration.ieq.poi moved into vertex-enumeration.ieq.poi%
+output written to file vertex-enumeration.ieq.poi
+

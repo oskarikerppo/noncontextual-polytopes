@@ -206,7 +206,7 @@ while value2 - value1 >= tol:
     P.add_list_of_constraints([picos.trace(r) == 1 for r in x])
     P.add_constraint(x[0] + x[1] == x[2] + x[3])
 
-    P.solve(solver = "mosek")
+    P.solve(solver = "cvxopt")
 
     value2 = picos.value((x[0] | M14[1]) + (x[0] | M13[1]) + (x[0] | M12[1]) + (x[1] | M24[1]) + (x[1] | M23[1]) + (x[1] | M12[0]) + (x[2] | M34[1]) + (x[2] | M23[0]) + (x[2] | M13[0]) + (x[3] | M34[0]) + (x[3] | M24[0]) + (x[3] | M14[0])).real
     print(value2)

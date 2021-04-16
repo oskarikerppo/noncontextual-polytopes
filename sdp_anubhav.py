@@ -62,13 +62,13 @@ for x in range(X):
 #Obtain observed data
 x_l = []
 for x in range(X):
-	y_l = []
-	for y in range(Y):
-		k_l = []
-		for k in range(0, K-1):
-			k_l.append(0.5 + 0.25 * (G[x][0*O + idx(y,k,0)] + G[x][0*O + idx(y,k,1)]))
-		y_l.append(k_l)
-	x_l.append(y_l)
+    y_l = []
+    for y in range(Y):
+        k_l = []
+        for k in range(0, K-1):
+            k_l.append(0.5 + 0.25 * (G[x][(0, idx(y,k,0))] + G[x][(0, idx(y,k,1))]))
+        y_l.append(k_l)
+    x_l.append(y_l)
 Prob = x_l
 
 '''
